@@ -1,0 +1,9 @@
+[package]
+name = "basic_4"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+arc = "0.0.1"
+ctrlc = "3.5.2"
+rand = "0.10.0"
