@@ -103,7 +103,7 @@ pub fn show_measurements(l: &Vec<Box<dyn Sensor>>) {
                         if value > 240.0 {
                             println!("[{}]: {:.2}V (¡ALERTA DE SOBRETENSIÓN!!)", d.name(), value);
                         } else {
-                            println!("[{}]: {:.2}V (Normal)", d.name(), d.read_value());
+                            println!("[{}]: {:.2}V (Normal)", d.name(), value);
                         }
                     }
                 }
